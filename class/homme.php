@@ -5,7 +5,7 @@ require_once('human.php');
 
 //Nous créons donc notre nouvelle class Femme et en ajoutant le terme extends suivi de Human, nous allons donc dire que notre classe Femme hérite de HUman
 //Par convention nous definirons les attributs 
-class Femme extends Human{
+class Homme extends Human{
 
     protected $sexe = "Homme";
    
