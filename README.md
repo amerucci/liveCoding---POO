@@ -27,12 +27,12 @@ Les « méthodes » sont les actions applicables à un objet.
 
 Un objet personne, par exemple, dispose des actions suivantes : manger, dormir, boire, marcher, courir...
 
-Qu'est-ce-qu'une classe ?
+### Qu'est-ce-qu'une classe ?
 Une « classe » est un modèle de données définissant la structure commune à tous les objets qui seront créés à partir d'elle. Plus concrètement, nous pouvons percevoir une classe comme un moule grâce auquel nous allons créer autant d'objets de même type et de même structure qu'on le désire.
 
 Par exemple, pour modéliser n'importe quelle personne, nous pourrions écrire une classe Personne dans laquelle nous définissons les attributs (couleurs des yeux, couleurs des cheveux, taille, sexe...) et méthodes (marcher, courir, manger, boire...) communs à tout être humain.
 
-Qu'est-ce-qu'une instance ?
+### Qu'est-ce-qu'une instance ?
 Une instance est une représentation particulière d'une classe.
 
 Lorsque l'on crée un objet, on réalise ce que l'on appelle une « instance de la classe ». C'est à dire que du moule, on en extrait un nouvel objet qui dispose de ses attributs et de ses méthodes. L'objet ainsi créé aura pour type le nom de la classe.
@@ -40,6 +40,3 @@ Lorsque l'on crée un objet, on réalise ce que l'on appelle une « instance de 
 Par exemple, les objets Hugo, Romain, Nicolas, Daniel sont des instances (objets) de la classe Personne.
 
 Remarque : une classe n'est pas un objet. C'est un abus de langage de dire qu'une classe et un objet sont identiques.
-
-Déclaration d'une classe
-Nous venons de définir le vocabulaire propre à la programmation orientée objet. Entrons à présent dans le vif du sujet, c'est à dire la déclaration et l'instanciation d'une classe. Nous allons déclarer une classe Personne qui nous permettra ensuite de créer autant d'instances (objets) de cette classe que nous le souhaitons.
